@@ -10,7 +10,7 @@ const images = tweets.flatMap((tweet) => {
       src: image.url,
       width: image.width,
       height: image.height,
-      title: `@${users[tweet.user_id]}`,
+      caption: `@${users[tweet.user_id]}`,
     };
   });
 });
@@ -35,14 +35,7 @@ export default function Home() {
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={images.map((img) => ({
-                ...img,
-                srcset: img.srcSet,
-                caption: img.title,
-              }))}
-            />
+            <Carousel currentIndex={currentImage} views={images} />
           </Modal>
         ) : null}
       </ModalGateway>
