@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "export": "next build && next export",
     "fmt": "pretty-quick",
     "prepare": "husky install"
   },
@@ -14,7 +14,7 @@
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-image-gallery": "^1.2.7"
+    "react-grid-gallery": "^0.5.5"
   },
   "devDependencies": {
     "eslint": "8.0.0",

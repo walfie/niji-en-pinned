@@ -1,15 +1,22 @@
 import Head from "next/head";
-import ImageGallery from "react-image-gallery";
+import Gallery from "react-grid-gallery";
 import tweets from "../tweets.json";
 import users from "../users.json";
 
 const images = tweets.flatMap((tweet) => {
-  return tweet.image_urls.map((url) => {
+  return tweet.images.map((image) => {
     return {
-      original: url,
-      thumbnail: url,
-      description: tweet.text,
-      thumbnailLabel: "@" + users[tweet.user_id],
+      src: image.url,
+      thumbnail: image.url,
+      caption: tweet.text,
+      thumbnailWidth: image.width,
+      thumbnailHeight: image.height,
+      tags: [
+        {
+          title: "username",
+          value: `@${users[tweet.user_id]}`,
+        },
+      ],
     };
   });
 });
@@ -23,12 +30,7 @@ export default function Home() {
       </Head>
 
       <main style={{ padding: 0, margin: 0 }}>
-        <ImageGallery
-          items={images}
-          showFullscreenButton={false}
-          showPlayButton={false}
-          thumbnailPosition={"top"}
-        />
+        <Gallery images={images} enableImageSelection={false} />
       </main>
     </div>
   );
