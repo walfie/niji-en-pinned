@@ -2,8 +2,8 @@ import Head from "next/head";
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import tweets from "../tweets.json";
-import users from "../users.json";
+import tweets from "../../public/tweets.json";
+import users from "../../public/users.json";
 
 const images = tweets.flatMap((tweet) => {
   return tweet.images.map((image) => {
