@@ -1,9 +1,11 @@
 name: "Update Tweets"
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *" # Every 30 minutes
 
 jobs:
-  update-flake-deps:
+  update-tweets:
     runs-on: ubuntu-latest
     steps:
       # We can't use the provided `GITHUB_TOKEN` here because it doesn't trigger
@@ -23,7 +25,7 @@ jobs:
       - name: Update users.json
         run: |
           curl -L https://github.com/walfie/twitter-pinned/releases/download/v0.2.0/twitter-pinned-v0.2.0-x86_64-unknown-linux-gnu.tar.gz | tar xvz --strip-components=1
-          ./twitter-pinned --pretty true $(jq -r 'keys[]' ./public/users.json) >./public/tweets.json
+          ./twitter-pinned --pretty true $(jq -r 'keys_unsorted[]' ./public/users.json) >./public/tweets.json
           rm twitter-pinned
 
           if [[ ! -z $(git status --short) ]]; then
