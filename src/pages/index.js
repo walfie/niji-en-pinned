@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -32,11 +31,6 @@ export default function Home() {
 
   return (
     <main>
-      <Head>
-        <title>Nijisanji EN Pinned Tweets</title>
-        <link rel="icon" href="/favicon.svg" />
-      </Head>
-
       <Gallery photos={images} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
