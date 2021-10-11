@@ -1,0 +1,33 @@
+name: "Update Tweets"
+on:
+  workflow_dispatch:
+
+jobs:
+  update-flake-deps:
+    runs-on: ubuntu-latest
+    steps:
+      # We can't use the provided `GITHUB_TOKEN` here because it doesn't trigger
+      # other workflows (like Docker Release). See docs for details:
+      # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#triggering-new-workflows-using-a-personal-access-token
+      #
+      # Generate a token (with "repo" permissions), and add it to the repo settings:
+      # https://github.com/settings/tokens/new?scopes=repo
+      # https://github.com/your-username/your-repo/settings/secrets/actions
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      - name: Set git user
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: Update users.json
+        run: |
+          curl -L https://github.com/walfie/twitter-pinned/releases/download/v0.2.0/twitter-pinned-v0.2.0-x86_64-unknown-linux-gnu.tar.gz | tar xvz --strip-components=1
+          ./twitter-pinned --pretty true $(jq -r 'keys[]' ./public/users.json) >./public/tweets.json
+          rm twitter-pinned
+
+          if [[ ! -z $(git status --short) ]]; then
+            git add ./public/tweets.json
+            git commit -m "Update tweets.json"
+            git push origin main
+          fi
