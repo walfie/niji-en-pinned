@@ -5,5 +5,27 @@ body {
   margin: 0;
   padding: 0;
   background: #000;
-  overflow-y: overlay;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  overflow: visible;
+  width: 11px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #999;
 }
