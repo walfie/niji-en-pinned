@@ -31,29 +31,27 @@ export default function Home() {
   };
 
   return (
-    <div className="container" style={{ padding: 0, margin: 0 }}>
+    <main>
       <Head>
         <title>Nijisanji EN Pinned Tweets</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main style={{ padding: 0, margin: 0 }}>
-        <Gallery photos={images} onClick={openLightbox} />
-        <ModalGateway>
-          {viewerIsOpen ? (
-            <Modal onClose={closeLightbox}>
-              <Carousel
-                currentIndex={currentImage}
-                views={images.map((img) => ({
-                  ...img,
-                  srcset: img.srcSet,
-                  caption: img.title,
-                }))}
-              />
-            </Modal>
-          ) : null}
-        </ModalGateway>
-      </main>
-    </div>
+      <Gallery photos={images} onClick={openLightbox} />
+      <ModalGateway>
+        {viewerIsOpen ? (
+          <Modal onClose={closeLightbox}>
+            <Carousel
+              currentIndex={currentImage}
+              views={images.map((img) => ({
+                ...img,
+                srcset: img.srcSet,
+                caption: img.title,
+              }))}
+            />
+          </Modal>
+        ) : null}
+      </ModalGateway>
+    </main>
   );
 }
