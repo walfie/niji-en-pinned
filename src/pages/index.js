@@ -48,7 +48,6 @@ export default function Home() {
           nextSrc={images[nextIndex()].src}
           prevSrc={images[prevIndex()].src}
           onCloseRequest={closeLightbox}
-          enableZoom={false}
           onMovePrevRequest={() => {
             setCurrentImage(prevIndex());
           }}
