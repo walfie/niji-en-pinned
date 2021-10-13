@@ -24,6 +24,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Update users.json
         run: |
+          if always():
           curl -L https://github.com/walfie/twitter-pinned/releases/download/v0.3.0/twitter-pinned-v0.3.0-x86_64-unknown-linux-gnu.tar.gz | tar xvz --strip-components=1
           ./twitter-pinned --pretty $(jq -r 'keys_unsorted[]' ./public/users.json) >./public/tweets.json
           rm twitter-pinned
