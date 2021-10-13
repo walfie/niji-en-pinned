@@ -1,4 +1,5 @@
 import "../../styles/globals.css";
+import "react-image-lightbox/style.css";
 import Head from "next/head";
 
 const title = "Nijisanji EN Pinned Tweets";

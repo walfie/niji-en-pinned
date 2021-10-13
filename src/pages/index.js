@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
+import Lightbox from "react-image-lightbox";
 import tweets from "../../public/tweets.json";
 import users from "../../public/users.json";
 
@@ -10,13 +10,13 @@ const images = tweets.flatMap((tweet) => {
       src: image.url,
       width: image.width,
       height: image.height,
-      caption: `@${users[tweet.user_id]}`,
+      title: `@${users[tweet.user_id]}`,
     };
   });
 });
 
 export default function Home() {
-  const [currentImage, setCurrentImage] = useState(0);
+  const [photoIndex, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const openLightbox = useCallback((_event, { index }) => {
@@ -29,16 +29,33 @@ export default function Home() {
     setViewerIsOpen(false);
   };
 
+  const nextIndex = () => {
+    return (photoIndex + 1) % images.length;
+  };
+
+  const prevIndex = () => {
+    return (photoIndex + images.length - 1) % images.length;
+  };
+
   return (
     <main>
       <Gallery photos={images} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel currentIndex={currentImage} views={images} />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      {viewerIsOpen ? (
+        <Lightbox
+          animationDuration={50}
+          imageTitle={images[photoIndex].title}
+          mainSrc={images[photoIndex].src}
+          nextSrc={images[nextIndex()].src}
+          prevSrc={images[prevIndex()].src}
+          onCloseRequest={closeLightbox}
+          onMovePrevRequest={() => {
+            setCurrentImage(prevIndex());
+          }}
+          onMoveNextRequest={() => {
+            setCurrentImage(nextIndex());
+          }}
+        />
+      ) : null}
     </main>
   );
 }
