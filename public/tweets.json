@@ -239,11 +239,17 @@
   },
   {
     "screen_name": "sonny_brisko",
-    "created_at": "Wed Feb 23 02:10:48 +0000 2022",
-    "tweet_id": "1496306518010245120",
+    "created_at": "Sun Feb 27 07:52:05 +0000 2022",
+    "tweet_id": "1497841956549922819",
     "user_id": "1493394108014292993",
-    "text": "https://t.co/wOymm5nf0O",
-    "images": []
+    "text": "my schedule this week!! https://t.co/CMdQgPpFax",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/FMlnSisVgAAkXBs.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
   },
   {
     "screen_name": "uki_violeta",
