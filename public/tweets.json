@@ -1,3 +1,5 @@
+[2m2022-07-27T00:58:07.468981Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 404 Not Found with empty body [3mlatency[0m[2m=[0m112 ms
+[2m2022-07-27T00:58:07.469027Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 404 Not Found with empty body [3muser_id[0m[2m=[0m1491195742123397124 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
