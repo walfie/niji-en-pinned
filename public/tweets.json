@@ -1,3 +1,13 @@
+[2m2022-08-17T14:01:46.523973Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m171 ms
+[2m2022-08-17T14:01:46.524006Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1465850835951357955 [3mretries_remaining[0m[2m=[0m1
+[2m2022-08-17T14:01:46.525013Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m172 ms
+[2m2022-08-17T14:01:46.525064Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1437952405283426310 [3mretries_remaining[0m[2m=[0m1
+[2m2022-08-17T14:01:46.525193Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m172 ms
+[2m2022-08-17T14:01:46.525212Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1465851188562345985 [3mretries_remaining[0m[2m=[0m1
+[2m2022-08-17T14:01:46.532957Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m181 ms
+[2m2022-08-17T14:01:46.532970Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1390209302120394754 [3mretries_remaining[0m[2m=[0m1
+[2m2022-08-17T14:01:46.533005Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m181 ms
+[2m2022-08-17T14:01:46.533011Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1413326894435602434 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
