@@ -1,11 +1,3 @@
-[2m2022-08-27T21:36:08.614038Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m253 ms
-[2m2022-08-27T21:36:08.614088Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1545552756773208066 [3mretries_remaining[0m[2m=[0m1
-[2m2022-08-27T21:36:08.628798Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m269 ms
-[2m2022-08-27T21:36:08.628826Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1437959162651156484 [3mretries_remaining[0m[2m=[0m1
-[2m2022-08-27T21:36:08.694676Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m335 ms
-[2m2022-08-27T21:36:08.694709Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1390637197167038464 [3mretries_remaining[0m[2m=[0m1
-[2m2022-08-27T21:36:08.702058Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m343 ms
-[2m2022-08-27T21:36:08.702079Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1390620618001838086 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -233,15 +225,15 @@
   },
   {
     "screen_name": "Fulgur_Ovid",
-    "created_at": "Sat Aug 27 17:20:14 +0000 2022",
-    "tweet_id": "1563577141073412098",
+    "created_at": "Sat Aug 27 22:35:09 +0000 2022",
+    "tweet_id": "1563656389301784576",
     "user_id": "1493392149664219138",
-    "text": "Here it is, the first 30 seconds of my original song, coming soon: 505. It will be an animated MV with me doing my best to sing a thematic opening for #Legatus505.\n\nCredits below. I'm so excited (and terrified) to be working with so many talented creators. https://t.co/CyYRl5c4dL",
+    "text": "Schedule for the week 08/28 - 09/03\n⚡【Hashtags】⚡\n\n⚡Live - #FulgurOvidHere\n⚡Art - #Artchivist / #Legartus\n⚡NSFW - #Cybussy\n⚡Memes - #Fulguma\n⚡Fiction: #FulFic\n⚡Clips: #OVideos\n⚡Thumbnails: #FoYoVid\n⚡Story: #Legatus505\n⚡Fans - #Comfydants\n⚡Assets: #FulAss https://t.co/6OjHDqCOCx",
     "images": [
       {
-        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1563576679724855296/pu/img/zAZdne4m56Mz9LyB.jpg",
-        "width": 1912,
-        "height": 1080
+        "url": "https://pbs.twimg.com/media/FbM5I0DXkAE9K7K.jpg",
+        "width": 2048,
+        "height": 1189
       }
     ]
   },
