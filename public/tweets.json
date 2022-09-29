@@ -1,3 +1,7 @@
+[2m2022-09-29T18:53:06.129467Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m166 ms
+[2m2022-09-29T18:53:06.129529Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1437963160544284675 [3mretries_remaining[0m[2m=[0m1
+[2m2022-09-29T18:53:06.138387Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m172 ms
+[2m2022-09-29T18:53:06.138411Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1545354510515654656 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -24,6 +28,20 @@
         "url": "https://pbs.twimg.com/media/FdDPucDX0AAOTvY.jpg",
         "width": 2048,
         "height": 1152
+      }
+    ]
+  },
+  {
+    "screen_name": "FinanaRyugu",
+    "created_at": "Sun Sep 18 16:30:52 +0000 2022",
+    "tweet_id": "1571537247328997379",
+    "user_id": "1390209302120394754",
+    "text": "・GENERAL: #FinanaRyugu / #フィナーナ竜宮\n・LIVE: #FinanaLive\n・SFW ART: #Finanart / R-🔞: #Ryugasm\n・THUMBNAIL/ASSETS: #Ryugraphics\n・FAN NAME: #Ryuguards\n・MEMES: #Finameme\n・GROUP: #LazuLight https://t.co/LN8OQINmzk",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/Fc84wCrXoAErj_a.jpg",
+        "width": 1920,
+        "height": 1080
       }
     ]
   },
