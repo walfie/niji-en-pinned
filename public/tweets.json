@@ -1,5 +1,5 @@
-[2m2022-10-18T15:52:10.058380Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m170 ms
-[2m2022-10-18T15:52:10.058433Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1493394108014292993 [3mretries_remaining[0m[2m=[0m1
+[2m2022-10-18T16:22:17.171143Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m180 ms
+[2m2022-10-18T16:22:17.224458Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1493394108014292993 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -221,13 +221,13 @@
   },
   {
     "screen_name": "Yugo_Asuma",
-    "created_at": "Tue Oct 18 11:35:21 +0000 2022",
-    "tweet_id": "1582334517565878272",
+    "created_at": "Tue Oct 18 16:02:47 +0000 2022",
+    "tweet_id": "1582401815345516544",
     "user_id": "1492604168145539072",
-    "text": "🎶🎶🎶🎶🎶🎶🎶🎶🎶\nGeneral: #YugoAsuma\nStream: #YugoONAIR\nArt: #AsumArt\nMeme: #Yugottem\nFans: #YUGUYS \nNSFW: #Asensored\nThumb &amp; Asset: #yugoahead \nClip: #yuclip\nSamples: #Bytebeats\nStream Idea: #YuGotDiss https://t.co/RGrhL72mVS",
+    "text": "🎶🎶🎶🎶🎶🎶🎶🎶🎶\nGeneral: #YugoAsuma\nStream: #YugoONAIR\nArt: #AsumArt\nMeme: #Yugottem\nFans: #YUGUYS \nNSFW: #Asensored\nThumb &amp; Asset: #yugoahead \nClip: #yuclip\nSamples: #Bytebeats\nStream Idea: #YuGotDiss https://t.co/fwM7hOvwbq",
     "images": [
       {
-        "url": "https://pbs.twimg.com/media/FfWUxz7agAA_PJW.jpg",
+        "url": "https://pbs.twimg.com/media/FfXR_IUaEAYjXyK.jpg",
         "width": 1989,
         "height": 1119
       }
