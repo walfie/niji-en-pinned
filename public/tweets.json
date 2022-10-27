@@ -1,5 +1,3 @@
-[2m2022-10-27T19:34:47.470722Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m293 ms
-[2m2022-10-27T19:34:47.470780Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1545354510515654656 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -73,17 +71,11 @@
   },
   {
     "screen_name": "MillieParfait",
-    "created_at": "Wed Oct 26 15:10:13 +0000 2022",
-    "tweet_id": "1585287689275904001",
+    "created_at": "Thu Oct 27 19:36:22 +0000 2022",
+    "tweet_id": "1585717058460958721",
     "user_id": "1437952405283426310",
-    "text": "🪄Weekly Schedule🪄\n\nI have a big lump on my throat and I can't talk/swallow a lot ;; forgive the lack of activities\n\nMerch #Milliedise\nAssets #Parfsets\nCosplay: #RobePlay\nThumbnails: #MillieDrops\nlive tag #Millieseconds\nart tag  #DrawMillie \nnsfw #CreaMillie\nmemes  #Memillie https://t.co/6LQymUBIc2",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/FgASwI4X0AIen_Z.jpg",
-        "width": 2048,
-        "height": 1152
-      }
-    ]
+    "text": "Hello!! it look like I'm stuck fighting some huge boss in a different timeline for approx 2 days+, so all streams are cancelled until further notice until I kill this nasty mf 😭👍👍👍 please stay safe everyone!",
+    "images": []
   },
   {
     "screen_name": "NinaKosaka",
