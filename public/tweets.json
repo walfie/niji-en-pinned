@@ -1,3 +1,5 @@
+[2m2022-10-30T18:44:56.846262Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 500 Internal Server Error with body {"errors":[{"message":"Internal error","code":131}]} [3mlatency[0m[2m=[0m484 ms
+[2m2022-10-30T18:44:56.846349Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 500 Internal Server Error with body {"errors":[{"message":"Internal error","code":131}]} [3muser_id[0m[2m=[0m1390620618001838086 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -313,13 +315,13 @@
   },
   {
     "screen_name": "ScarleYonaguni",
-    "created_at": "Tue Oct 25 02:58:46 +0000 2022",
-    "tweet_id": "1584741229144965120",
+    "created_at": "Sun Oct 30 18:15:28 +0000 2022",
+    "tweet_id": "1586783863006646273",
     "user_id": "1545354510515654656",
-    "text": "Schedule is up! Thank you so much for waiting!🦇🍷\n🦇❤Schedule for 10/22-10/30!❤🦇\n\n🦇Hashtags🦇\n💋General: #ScarleYonaguni\n💋 Live: #ScarleLive\n💋Art: #ScarleArt\n💋NSFW: #ScarleLewd \n💋Memes: #YonaMAMA\n💋Assets: #ScarleAssets\n💋Thumbnail: #ScarleNail\n💋Scarlings: #Scarlings https://t.co/vSq1D4g8Z8",
+    "text": "Schedule is up! 😊💖Thank you for waiting! 🌺💀🍬🧡\nSchedule for 10/31-11/06!\n\n🌺💀🧡Hashtags🧡💀🌺\n🧡General: #ScarleYonaguni\n🧡Live: #ScarleLive\n🧡Art: #ScarleArt\n🧡NSFW: #ScarleLewd \n🧡Memes: #YonaMAMA\n🧡Assets: #ScarleAssets\n🧡Thumbnail: #ScarleNail\n🧡Scarlings: #Scarlings https://t.co/IBOA8nWwZA",
     "images": [
       {
-        "url": "https://pbs.twimg.com/media/Ff4hLDOVsAAXnrj.jpg",
+        "url": "https://pbs.twimg.com/media/FgVinBkUAAEyZSw.jpg",
         "width": 1972,
         "height": 1280
       }
