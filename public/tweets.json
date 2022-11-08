@@ -1,3 +1,5 @@
+[2m2022-11-08T02:55:38.212163Z[0m [31mERROR[0m [2mtower_http::trace::on_failure[0m[2m:[0m response failed [3mclassification[0m[2m=[0mError: HTTP error 403 Forbidden (could not read body as UTF-8) [3mlatency[0m[2m=[0m177 ms
+[2m2022-11-08T02:55:38.212221Z[0m [33m WARN[0m [2mtwitter_pinned::service::retry[0m[2m:[0m Retrying request due to HTTP error [3merror[0m[2m=[0mHTTP error 403 Forbidden (could not read body as UTF-8) [3muser_id[0m[2m=[0m1492604168145539072 [3mretries_remaining[0m[2m=[0m1
 [
   {
     "screen_name": "PomuRainpuff",
@@ -141,13 +143,13 @@
   },
   {
     "screen_name": "shu_yamino",
-    "created_at": "Tue Nov 01 10:02:52 +0000 2022",
-    "tweet_id": "1587384669905068033",
+    "created_at": "Tue Nov 08 01:21:12 +0000 2022",
+    "tweet_id": "1589790104637571075",
     "user_id": "1465850835951357955",
-    "text": "👟Weekly Schedule☯️\n\nkinda pog\n\nHashtags 👟 \nGeneral - #ShuYamino \nArt - #YaminoArt \nMemes - #ShuNanigans \nClips - #ShuClip #ShuClipEN #ShuClipJP \nStream Assets: #StreamEyysets \nThumbnails: #Thumbneyyl \nNSFW - #Shussy \nFan Name - Yaminions https://t.co/3dTyi5Dcoh",
+    "text": "👟Weekly Schedule☯️\n\nsorry some stuff are still being finalized 🙏\n\nHashtags 👟 \nGeneral - #ShuYamino \nArt - #YaminoArt \nMemes - #ShuNanigans \nClips - #ShuClip #ShuClipEN #ShuClipJP \nStream Assets: #StreamEyysets \nThumbnails: #Thumbneyyl \nNSFW - #Shussy \nFan Name - Yaminions https://t.co/6OnBol2LEf",
     "images": [
       {
-        "url": "https://pbs.twimg.com/media/FgeFcgTXkAAeZgr.jpg",
+        "url": "https://pbs.twimg.com/media/FhARnbqXEAIKeKx.jpg",
         "width": 1920,
         "height": 1080
       }
@@ -205,13 +207,13 @@
   },
   {
     "screen_name": "alban_knox",
-    "created_at": "Tue Nov 01 17:31:08 +0000 2022",
-    "tweet_id": "1587497479766941700",
+    "created_at": "Tue Nov 08 02:35:38 +0000 2022",
+    "tweet_id": "1589808834507177984",
     "user_id": "1490867613915828224",
-    "text": "I FEEL BETTER NOW, ACTUALLY FOR REAL THIS TIME!!!! LET'S GO AND HAVE A CHILL WEEK!!! 🥰🥰🥰\n\nGeneral: #AlbanKnox \nLive: #AlbanLive\nArt: #AlbanKnoxArt\nNSFW: #KnoxSFW\nMeme: #DeezKnox\nThumbnail &amp; Assets: #AlbanGraphics\nClip tag: #KnoxClips \n\nArt: @/ddandaadann https://t.co/CeLwSITBxk",
+    "text": "NEXT MONTH IS CHRISTMAS WOOOOO, TIME TO COUNT THE DAYS DOWN!! 🧡🧡🧡\n\nGeneral: #AlbanKnox \nLive: #AlbanLive\nArt: #AlbanKnoxArt\nNSFW: #KnoxSFW\nMeme: #DeezKnox\nThumbnail &amp; Assets: #AlbanGraphics\nClip tag: #KnoxClips \n\nArt: @/nervous_en https://t.co/obuhdjzu8K",
     "images": [
       {
-        "url": "https://pbs.twimg.com/media/Fgfrd6KWAAQrFPR.jpg",
+        "url": "https://pbs.twimg.com/media/FhAezF0XgAE20yi.jpg",
         "width": 1910,
         "height": 1250
       }
