@@ -143,11 +143,17 @@
   },
   {
     "screen_name": "luca_kaneshiro",
-    "created_at": "Sat Feb 11 01:09:27 +0000 2023",
-    "tweet_id": "1624213992905527296",
+    "created_at": "Mon Feb 20 13:40:55 +0000 2023",
+    "tweet_id": "1627664600379588610",
     "user_id": "1465858739970273281",
-    "text": "LUCA",
-    "images": []
+    "text": "pog look 😛 https://t.co/KHiHEf2kN2",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/FpagUdeaQAADnTb.jpg",
+        "width": 2048,
+        "height": 1189
+      }
+    ]
   },
   {
     "screen_name": "alban_knox",
