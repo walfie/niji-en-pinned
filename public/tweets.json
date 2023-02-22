@@ -163,11 +163,17 @@
   },
   {
     "screen_name": "Vox_Akuma",
-    "created_at": "Fri Feb 10 15:36:53 +0000 2023",
-    "tweet_id": "1624069902179901442",
+    "created_at": "Wed Feb 22 15:23:01 +0000 2023",
+    "tweet_id": "1628415069968117760",
     "user_id": "1465851881180348425",
-    "text": "Hi everyone, received some bad news from family today. Streams will be canceled indefinitely until further notice. I'm very sorry.",
-    "images": []
+    "text": "I will return to streaming at my usual time on March 2nd https://t.co/vrAmVm06gn",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/FplK4GhXEAAlrK1.jpg",
+        "width": 902,
+        "height": 990
+      }
+    ]
   },
   {
     "screen_name": "luca_kaneshiro",
